@@ -19,29 +19,19 @@
             android:id="@+id/btCircle"
             style="@style/ChoiceButton"
             android:layout_height="244dp"
-            android:text="Circle" />
+            android:text="@string/btCircle_name" />
 
         <TextView
             android:id="@+id/btSquare"
             style="@style/ChoiceButton"
             android:layout_height="244dp"
-
-            android:text="Square" />
+            android:text="@string/btSquare_name" />
 
         <TextView
             android:id="@+id/btRectangle"
             style="@style/ChoiceButton"
             android:layout_height="244dp"
-            android:text="Rectangle" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal"
-       >
+            android:text="@string/btRectangle_name" />
 
     </LinearLayout>
 
@@ -51,6 +41,34 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvInputParam"
+            style="@style/Select" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/radiusSideLength"
+            style="@style/editText"
+            android:hint="@string/radiusSideLength"
+            />
+
+        <EditText
+            android:id="@+id/width"
+            style="@style/editText"
+            android:hint="@string/width" />
+
+        <TextView
+            android:id="@+id/finalResult"
+            style="@style/Select"
+
+            />
 
     </LinearLayout>
 </LinearLayout>

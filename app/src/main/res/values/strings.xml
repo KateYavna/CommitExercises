@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">CommitExercises</string>
+    <string name="app_name">area calculator</string>
+    <string name="btRectangle_name">Rectangle</string>
+    <string name="btSquare_name">Square</string>
+    <string name="btCircle_name">Circle</string>
+    <string name="radiusSideLength">Radius or Side or Length</string>
+    <string name="width">Width (only for Rectangle) </string>
+    <string name="tvInputParam_circle">enter the radius of the circle</string>
+    <string name="tvInputParam_square">enter the side of the square</string>
+    <string name="tvInputParam_rectangle">enter the length and width of the rectangle</string>
+
 </resources>
